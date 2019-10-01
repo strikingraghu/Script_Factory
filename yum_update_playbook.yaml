@@ -1,0 +1,13 @@
+---
+# YAML to install OpenJDK via Ansible automation
+
+-
+  hosts: clients
+  gather_facts: true
+
+  tasks:
+    - name: Yum Update
+      yum:
+        name: "*"
+        state: latest
+...
