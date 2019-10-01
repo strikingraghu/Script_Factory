@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.0.25
+- hosts: 0.0.0.0
   vars:
     jdk_dir: 8u131-b11
     jdk_archive: jdk-8u131-linux-x64.tar.gz
