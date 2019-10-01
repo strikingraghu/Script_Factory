@@ -1,5 +1,5 @@
 ---
-# YAML to install OpenJDK via Ansible automation
+# YAML to update repo via Yum update command
 
 -
   hosts: clients

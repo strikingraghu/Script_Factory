@@ -1,4 +1,7 @@
 ---
+
+# YAML content is to help us installing JDK via Ansible automation
+
 - hosts: 0.0.0.0
   vars:
     jdk_dir: 8u131-b11
